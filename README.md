@@ -1,13 +1,10 @@
 Bank of Flatiron
 
-Bank of Flatiron is a modern web application built with React and powered by Vite. It allows users to manage their finances, view transactions, and perform various banking operations seamlessly.
+Bank of Flatiron is a modern web application built with React. It allows users to manage their finances, view transactions, and perform various banking operations seamlessly.
 Features
 
     Account Management: Create, update, and delete bank accounts.
     Transaction History: View a detailed history of transactions for each account.
-    Transfer Funds: Transfer money between accounts securely.
-    Deposit & Withdrawal: Deposit funds into accounts or withdraw money as needed.
-    Balance Inquiry: Check the balance of any account with real-time updates.
     Responsive Design: Access the application from any device with ease.
 
 Getting Started
