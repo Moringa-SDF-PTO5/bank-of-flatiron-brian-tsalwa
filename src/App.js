@@ -12,7 +12,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    // Fetch transactions from the backend API
+    
     fetch('http://localhost:8000/transactions')
       .then(response => response.json())
       .then(data => {
@@ -23,7 +23,7 @@ function App() {
   }, []);
 
   const handleAddTransaction = (newTransaction) => {
-    // Post new transaction to the backend API
+    
     fetch('/transactions', {
       method: 'POST',
       headers: {
@@ -60,7 +60,7 @@ function App() {
   };
 
   const handleDeleteTransaction = (id) => {
-    // Delete transaction from the backend API
+    
     fetch(`/transactions/${id}`, {
       method: 'DELETE'
     })
