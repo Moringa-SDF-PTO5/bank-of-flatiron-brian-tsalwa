@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     
-    fetch('http://localhost:8000/transactions')
+    fetch('https://json-bank.onrender.com/transactions')
       .then(response => response.json())
       .then(data => {
         setTransactions(data);
