@@ -22,26 +22,39 @@ h1 {
 
 
 table {
-  width: 80%;
+  width: 89%;
   border-collapse: collapse;
   margin-top: 20px;
-  margin-left: 140px;
+  margin-left: 85px;
+  margin-right: 80px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+
 }
 
 th, td {
   border: 1px solid #ddd;
-  padding: 8px;
+  padding: 12px 15px;
   text-align: center;
+  border-bottom: 1px solid #dddddd;
+  background-color: #f3f3f3;
+  border-bottom: 2px solid #4CAF50;
+  font-weight: bold;
+    color: #009879;
 }
 
 th {
-  background-color: #f2f2f2;
+  background-color: #4CAF50;
+  color: #ffffff;
+  text-align: left;
 }
+
 
 
 form {
   margin-top: 10px;
+  border-radius: 5px 5px 0 0;
 }
 
 input[type="text"],
@@ -75,6 +88,7 @@ button:hover {
 
 .search-bar {
   margin-top: 20px;
+  
 }
 
 

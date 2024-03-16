@@ -74,7 +74,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Bank Transactions</h1>
+      <h1>$Bank Of Flatiron$</h1>
       <TransactionForm onAddTransaction={handleAddTransaction} />
       <SearchBar searchTerm={searchTerm} onSearch={handleSearch} />
       <TransactionList
